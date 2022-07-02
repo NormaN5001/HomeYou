@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { createGlobalStyle } from "styled-components"
+import styled from 'styled-components';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Header from './components/header/Header'
+
+
+const GlobalStyle = createGlobalStyle`
+   *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+`
+const Container = styled.section`
+  margin: 0 10vw 0 10vw;
+  height: 500px;
+  @media(max-width: 1440px){
+    margin: 0 5vw 0 5vw;
+  }@media(max-width: 1024px){
+    margin: 0;
+  }
+`
+
+export default function HomeYou(){
+
+  return(
+    <>
+    <Container>
+      <GlobalStyle/>
+      <Header/>
+    </Container>
+    </>
+  )
 }
-
-export default App;
