@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import * as S from './Styles'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import HouseHome from '../../../img/house1.png'
+
+export default function Home(){
+
+  return(
+    <>
+      <S.HomeSection>
+        <S.Left>
+          <S.TitleBox>Ajudar você a encontrar o melhor conforto, é nossa prioridade.</S.TitleBox>
+          <S.Text>Encontre uma variedade de propriedades que combinam com você. Esqueça todas as dificuldades em encontrar uma residência</S.Text>
+            <S.Button>Entre em contato</S.Button>
+            <S.Link href="#">Mais sobre nós</S.Link>
+        </S.Left>
+        <S.Image src={HouseHome} alt="Imagem de uma casa"/>
+      </S.HomeSection>
+    </>
+  )
 }
-
-export default App;

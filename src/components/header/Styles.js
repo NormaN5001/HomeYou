@@ -12,7 +12,7 @@ export const Left = styled.section`
   display: flex;
   align-items: center;
   p{
-    margin-left: 10px;
+    margin-left: 55px;
     color: #272727;
     font-weight: 600;
     font-size: 18px;
@@ -29,6 +29,7 @@ export const Logo = styled.div`
   background-color: #272727;
   width: 43px;
   height: 43px;
+  position: fixed;
 `
 export const Navegation = styled.nav`
   ul{

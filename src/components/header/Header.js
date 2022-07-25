@@ -3,6 +3,7 @@ import * as S from './Styles'
 
 import HearthImg from '../../img/coracao.png'
 import SearchImg from '../../img/lupa.png'
+import UserImg from '../../img/user.png'
 
 export default function Header(){
 
@@ -22,8 +23,9 @@ export default function Header(){
               <li>Contato</li>
             </ul>
           </S.Navegation>
+
           <S.Icons>
-            <img src={HearthImg} alt="Ícone de um coração"/>
+            <img src={UserImg} alt="Ícone de um coração"/>
             <img src={HearthImg} alt="Ícone de um coração"/>
             <img src={SearchImg} alt="Ícone de uma lupa"/>
           </S.Icons>
