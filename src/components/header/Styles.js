@@ -30,6 +30,7 @@ export const Logo = styled.div`
   width: 43px;
   height: 43px;
   position: fixed;
+  z-index: 1;
 `
 export const Navegation = styled.nav`
   ul{

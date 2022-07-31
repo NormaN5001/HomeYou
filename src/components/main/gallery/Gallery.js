@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import * as S from './Styles'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import HouseGallery1 from '../../../img/house-gallery1.png'
+import HouseGallery2 from '../../../img/house-gallery2.png'
+import HouseGallery3 from '../../../img/house-gallery3.png'
+
+export default function Gallery(){
+
+  return(
+    <S.GallerySection>
+      <S.Texts>
+        <S.TitleBox>Galeria</S.TitleBox>
+        <S.TextBox>Se você está entediado com a aparência da decoração de interiores da casa comuns, trabalhamos com designs diferentes e inovadores.</S.TextBox>
+      </S.Texts>
+      <S.GalleryImg>
+        <S.ImageGallery src={HouseGallery1} alt="Foto de uma casa da galeria"/>
+        <S.ImageGallery src={HouseGallery2} alt="Foto de uma casa da galeria"/>
+        <S.ImageGallery src={HouseGallery3} alt="Foto de uma casa da galeria"/>
+      </S.GalleryImg>
+    </S.GallerySection>
+  )
 }
-
-export default App;
