@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import * as S from './Styles'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+export default function Footer(){
+
+  return(
+    <S.FooterSection>
+      <S.Logo></S.Logo>
+      <S.Products>
+        <S.TitleBox>Produtos</S.TitleBox>
+        <S.List>
+          <S.Item>Mobilia</S.Item>
+          <S.Item>Segurança</S.Item>
+          <S.Item>Design Interior</S.Item>
+        </S.List>
+      </S.Products>
+
+      <S.MoreInfo>
+        <S.TitleBox>Mais Informações</S.TitleBox>
+        <S.List>
+          <S.Item>Contrato</S.Item>
+          <S.Item>Sobre nós</S.Item>
+          <S.Item>Termos e Condições</S.Item>
+        </S.List>
+      </S.MoreInfo>
+
+      <S.Networks>
+        <S.TitleBox>Redes Sociais</S.TitleBox>
+        <S.List>
+          <S.Item>Pinterest</S.Item>
+          <S.Item>Facebook</S.Item>
+          <S.Item>Instagram</S.Item>
+        </S.List>
+      </S.Networks>
+    </S.FooterSection>
+  )
 }
-
-export default App;

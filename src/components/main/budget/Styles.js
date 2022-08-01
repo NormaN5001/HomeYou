@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const BudgetSection = styled.section`
   margin-top: 130px;
-  height: 200px;
+  height: 170px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

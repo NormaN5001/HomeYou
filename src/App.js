@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 import Header from './components/header/Header'
 import Main from './components/main/Main'
+import Footer from './components/footer/Footer'
 
 const GlobalStyle = createGlobalStyle`
    *{
@@ -29,6 +30,7 @@ export default function HomeYou(){
       <GlobalStyle/>
       <Header/>
       <Main/>
+      <Footer/>
     </Container>
     </>
   )
