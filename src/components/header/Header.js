@@ -1,5 +1,6 @@
 import React from 'react'
 import * as S from './Styles'
+import Menu from './menuMobile/Menu'
 
 import HearthImg from '../../img/coracao.png'
 import SearchImg from '../../img/lupa.png'

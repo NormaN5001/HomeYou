@@ -37,7 +37,7 @@ export const Navegation = styled.nav`
     display: flex;
     list-style: none;
     @media(max-width: 768px){
-      
+      display: none;
     }
   }
   ul li{
