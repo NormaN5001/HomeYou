@@ -69,4 +69,8 @@ export const ImageGallery = styled.img`
     height: 380px;
     width: 365px;
   }
+    @media(max-width: 376px){
+    width: 300px;
+    height: 330px;
+  }
 `

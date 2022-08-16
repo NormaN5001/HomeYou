@@ -25,6 +25,13 @@ export default function Header(){
             </ul>
           </S.Navegation>
 
+          <S.MenuHamburguer>
+            <div></div>
+            <div></div>
+            <div></div>
+          </S.MenuHamburguer>
+          <Menu/>
+
           <S.Icons>
             <img src={UserImg} alt="Ícone de um coração"/>
             <img src={HearthImg} alt="Ícone de um coração"/>

@@ -35,6 +35,7 @@ export const Products = styled.div`
   }
   @media(max-width: 350px){
     width: 250px;
+    text-align: center;
   }
 `
 export const MoreInfo = styled.div`
@@ -48,8 +49,9 @@ export const MoreInfo = styled.div`
     margin-left: 10px;
   }
   @media(max-width: 350px){
-    margin: 30px 0 0 53px;
+    margin: 50px 0 0 53px;
     width: 250px;
+    text-align: center;
   }
 `
 export const Networks = styled.div`
@@ -68,8 +70,9 @@ export const Networks = styled.div`
     margin-left: 55px;
   }
   @media(max-width: 350px){
-    margin: 30px 0 0 53px;
+    margin: 50px 0 0 53px;
     width: 250px;
+    text-align: center;
   }
 `
 export const List = styled.ul`

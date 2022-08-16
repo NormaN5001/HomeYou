@@ -72,3 +72,19 @@ export const Icons = styled.div`
     cursor: pointer;
   }
 `
+export const MenuHamburguer = styled.div`
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  display: none;
+  z-index: 2;
+  div{
+    margin: 4px;
+    background-color: #FFF;
+    height: 4px;
+    width: 40px;
+  }
+  @media(max-width: 768px){
+    display: block;
+  }
+`
