@@ -7,7 +7,7 @@ export default function Footer(){
 
   return(
     <S.FooterSection>
-      <S.Logo></S.Logo>
+      <a href="#top"><S.Logo></S.Logo></a>
       <S.Products>
         <S.TitleBox>Produtos</S.TitleBox>
         <S.List>

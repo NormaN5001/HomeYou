@@ -8,7 +8,7 @@ import HouseGallery3 from '../../../img/house-gallery3.png'
 export default function Gallery(){
 
   return(
-    <S.GallerySection>
+    <S.GallerySection id="gallery">
       <S.Texts>
         <S.TitleBox>Galeria</S.TitleBox>
         <S.TextBox>Se você está entediado com a aparência da decoração de interiores da casa comuns, trabalhamos com designs diferentes e inovadores.</S.TextBox>

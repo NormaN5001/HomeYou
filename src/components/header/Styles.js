@@ -30,7 +30,9 @@ export const Logo = styled.div`
   width: 43px;
   height: 43px;
   position: fixed;
+  top: 20px;
   z-index: 1;
+  cursor: pointer;
 `
 export const Navegation = styled.nav`
   ul{
@@ -43,7 +45,6 @@ export const Navegation = styled.nav`
   ul li{
     cursor: pointer;
     margin-left: 40px;
-    color: #272727;
     font-size: 18px;
     font-weight: 500;
     position: relative;
@@ -60,6 +61,10 @@ export const Navegation = styled.nav`
     &:hover:after{
       width: 100%;
     }
+  }
+  a{
+    text-decoration: none;
+    color: #272727;
   }
 `
 export const Icons = styled.div`
@@ -79,6 +84,7 @@ export const MenuHamburguer = styled.div`
   display: none;
   z-index: 2;
   div{
+    border: solid #272727 0.5px;
     margin: 4px;
     background-color: #FFF;
     height: 4px;
